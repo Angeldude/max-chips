@@ -31,6 +31,19 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 16,
+					"numoutlets" : 0,
+					"patching_rect" : [ 170.0, 193.0, 221.5, 20.0 ],
+					"text" : "ram64"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -2343,6 +2356,13 @@
 			}
 , 			{
 				"name" : "inc16.maxpat",
+				"bootpath" : "/Users/angelman/Desktop/com_sim",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ram64.maxpat",
 				"bootpath" : "/Users/angelman/Desktop/com_sim",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
