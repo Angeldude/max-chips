@@ -19,7 +19,7 @@ def receive(num)
     "numinlets": 0,
     "numoutlets": 1,
     "patching_rect": [192.5242, 268.0, 57.0, 20.0],
-    "id": "obj-77",
+    "id": "obj-20",
     "fontname": "Arial",
     "outlettype": [""]
   }
