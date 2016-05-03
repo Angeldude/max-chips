@@ -759,7 +759,7 @@
 			}
 , 			{
 				"box" : 				{
-					"editor_rect" : [ 80.0, 100.0, 300.0, 300.0 ],
+					"editor_rect" : [ 100.0, 100.0, 300.0, 300.0 ],
 					"embed" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -768,18 +768,18 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 245.25, 341.0, 236.0, 20.0 ],
+					"patching_rect" : [ 245.25, 341.0, 254.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
-						"name" : "ram16k",
+						"name" : "#1-ram16k",
 						"parameter_enable" : 0,
 						"range" : 65536,
 						"showeditor" : 0,
 						"size" : 16384
 					}
 ,
-					"showeditor" : 1,
-					"text" : "table ram16k @size 16384 @range 65536"
+					"showeditor" : 0,
+					"text" : "table #1-ram16k @size 16384 @range 65536"
 				}
 
 			}
@@ -1354,7 +1354,7 @@
 					"destination" : [ "obj-1", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 362.25, 336.0, 471.75, 336.0 ],
+					"midpoints" : [ 362.25, 336.0, 489.75, 336.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1382,15 +1382,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "bintodec.js",
-				"bootpath" : "/Users/angelman/Desktop/com_sim",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/angelman/Desktop/com_sim/scripts",
+				"patcherrelativepath" : "../scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dectobin.js",
-				"bootpath" : "/Users/angelman/Desktop/com_sim",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/angelman/Desktop/com_sim/scripts",
+				"patcherrelativepath" : "../scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
