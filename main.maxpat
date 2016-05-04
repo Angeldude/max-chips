@@ -56,20 +56,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-3",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 616.0, 349.0, 50.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-48",
 					"linecount" : 2,
 					"maxclass" : "message",
@@ -136,15 +122,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -247,13 +224,6 @@
 				"bootpath" : "/Users/angelman/Desktop/com_sim/major_chips",
 				"patcherrelativepath" : "./major_chips",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "spaces.js",
-				"bootpath" : "/Users/angelman/Desktop/com_sim",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ]
