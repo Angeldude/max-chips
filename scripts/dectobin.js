@@ -13,3 +13,7 @@ function msg_int(num) {
 
 
 }
+
+function set(num){
+	msg_int(num);
+	}
