@@ -220,6 +220,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "register.maxpat",
+				"bootpath" : "/Users/angelman/Desktop/com_sim/seq_logic",
+				"patcherrelativepath" : "./seq_logic",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ROM32k.maxpat",
 				"bootpath" : "/Users/angelman/Desktop/com_sim/major_chips",
 				"patcherrelativepath" : "./major_chips",

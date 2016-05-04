@@ -421,7 +421,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 157.5, 360.0, 32.5, 20.0 ],
+									"patching_rect" : [ 149.5, 343.0, 32.5, 20.0 ],
 									"text" : "i"
 								}
 
@@ -530,7 +530,7 @@
 									}
 ,
 									"showeditor" : 0,
-									"text" : "table #1-register @size 1 @range 65536"
+									"text" : "table #1-register @size 0 @range 65536"
 								}
 
 							}
@@ -569,7 +569,7 @@
 									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 410.5, 192.0, 346.0, 192.0, 346.0, 306.0, 167.0, 306.0 ],
+									"midpoints" : [ 410.5, 192.0, 346.0, 192.0, 346.0, 306.0, 159.0, 306.0 ],
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -648,7 +648,6 @@
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 167.0, 381.0, 129.75, 381.0 ],
 									"source" : [ "obj-4", 0 ]
 								}
 
