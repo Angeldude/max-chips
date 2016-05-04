@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 166.0, 73.0, 1105.0, 660.0 ],
+		"rect" : [ 94.0, 61.0, 1105.0, 660.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 881.0, 248.0, 53.0, 20.0 ],
+					"text" : "pipe 1 5"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -3169,20 +3183,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
+					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 543.5, 381.0, 354.0, 381.0, 354.0, 285.0, 276.0, 285.0, 276.0, 156.0, 235.5, 156.0 ],
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 543.5, 393.0, 777.0, 393.0, 777.0, 231.0, 645.0, 231.0, 645.0, 189.0, 573.5, 189.0 ],
+					"midpoints" : [ 543.5, 393.0, 867.0, 393.0, 867.0, 243.0, 890.5, 243.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -3534,6 +3538,26 @@
 					"hidden" : 0,
 					"midpoints" : [ 602.5, 108.0, 567.5, 108.0 ],
 					"source" : [ "obj-139", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 890.5, 270.0, 645.0, 270.0, 645.0, 156.0, 235.5, 156.0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 890.5, 270.0, 645.0, 270.0, 645.0, 189.0, 573.5, 189.0 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -4482,6 +4506,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 573.5, 222.0, 543.5, 222.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
