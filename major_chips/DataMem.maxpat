@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 517.0, 149.0, 640.0, 480.0 ],
+		"rect" : [ 241.0, 133.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,12 +31,26 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "int", "int" ],
+					"patching_rect" : [ 401.0, 83.0, 68.0, 20.0 ],
+					"text" : "dmux4way"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 30,
 					"numoutlets" : 16,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 132.5, 295.0, 410.5, 20.0 ],
+					"patching_rect" : [ 113.5, 291.0, 410.5, 20.0 ],
 					"text" : "screen"
 				}
 
@@ -51,7 +65,7 @@
 					"numoutlets" : 16,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 119.0, 208.0, 424.0, 20.0 ],
-					"text" : "ram16k one"
+					"text" : "ram16k feng-shui"
 				}
 
 			}
@@ -82,6 +96,48 @@
 				"name" : "screen.maxpat",
 				"bootpath" : "/Users/angelman/Desktop/com_sim/IO",
 				"patcherrelativepath" : "../IO",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dmux4way.maxpat",
+				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
+				"patcherrelativepath" : "../binary_logic",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dmuxer.maxpat",
+				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
+				"patcherrelativepath" : "../binary_logic",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "muxer.maxpat",
+				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
+				"patcherrelativepath" : "../binary_logic",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "and.maxpat",
+				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
+				"patcherrelativepath" : "../binary_logic",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "or.maxpat",
+				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
+				"patcherrelativepath" : "../binary_logic",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "not.maxpat",
+				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
+				"patcherrelativepath" : "../binary_logic",
 				"type" : "JSON",
 				"implicit" : 1
 			}
