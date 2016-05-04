@@ -29,6 +29,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 616.0, 349.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -313,6 +327,15 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CPU.maxpat",
@@ -343,21 +366,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ALU.maxpat",
-				"bootpath" : "/Users/angelman/Desktop/com_sim/major_chips",
-				"patcherrelativepath" : "./major_chips",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "muxer.maxpat",
+				"name" : "and.maxpat",
 				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
 				"patcherrelativepath" : "./binary_logic",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "and.maxpat",
+				"name" : "not.maxpat",
 				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
 				"patcherrelativepath" : "./binary_logic",
 				"type" : "JSON",
@@ -371,7 +387,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "not.maxpat",
+				"name" : "ALU.maxpat",
+				"bootpath" : "/Users/angelman/Desktop/com_sim/major_chips",
+				"patcherrelativepath" : "./major_chips",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "muxer.maxpat",
 				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
 				"patcherrelativepath" : "./binary_logic",
 				"type" : "JSON",
