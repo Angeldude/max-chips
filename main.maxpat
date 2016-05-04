@@ -161,6 +161,7 @@
 					"destination" : [ "obj-13", 15 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 204.239136, 162.0, 229.0, 162.0 ],
 					"source" : [ "obj-1", 14 ]
 				}
 
@@ -170,6 +171,7 @@
 					"destination" : [ "obj-13", 14 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 191.543472, 162.0, 215.5, 162.0 ],
 					"source" : [ "obj-1", 13 ]
 				}
 
@@ -179,6 +181,7 @@
 					"destination" : [ "obj-13", 13 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 178.847824, 162.0, 202.0, 162.0 ],
 					"source" : [ "obj-1", 12 ]
 				}
 
@@ -188,6 +191,7 @@
 					"destination" : [ "obj-13", 12 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 166.152176, 165.0, 188.5, 165.0 ],
 					"source" : [ "obj-1", 11 ]
 				}
 
@@ -197,6 +201,7 @@
 					"destination" : [ "obj-13", 11 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 153.456528, 165.0, 175.0, 165.0 ],
 					"source" : [ "obj-1", 10 ]
 				}
 
@@ -206,6 +211,7 @@
 					"destination" : [ "obj-13", 10 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 140.760864, 165.0, 161.5, 165.0 ],
 					"source" : [ "obj-1", 9 ]
 				}
 
@@ -215,6 +221,7 @@
 					"destination" : [ "obj-13", 9 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 128.065216, 165.0, 148.0, 165.0 ],
 					"source" : [ "obj-1", 8 ]
 				}
 
@@ -224,6 +231,7 @@
 					"destination" : [ "obj-13", 8 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 115.369568, 162.0, 134.5, 162.0 ],
 					"source" : [ "obj-1", 7 ]
 				}
 
@@ -233,6 +241,7 @@
 					"destination" : [ "obj-13", 7 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 102.673912, 162.0, 121.0, 162.0 ],
 					"source" : [ "obj-1", 6 ]
 				}
 
@@ -242,6 +251,7 @@
 					"destination" : [ "obj-13", 6 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 89.978264, 162.0, 107.5, 162.0 ],
 					"source" : [ "obj-1", 5 ]
 				}
 
@@ -251,6 +261,7 @@
 					"destination" : [ "obj-13", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 77.282608, 162.0, 94.0, 162.0 ],
 					"source" : [ "obj-1", 4 ]
 				}
 
@@ -260,6 +271,7 @@
 					"destination" : [ "obj-13", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 64.58696, 165.0, 80.5, 165.0 ],
 					"source" : [ "obj-1", 3 ]
 				}
 
@@ -269,6 +281,7 @@
 					"destination" : [ "obj-13", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 51.891304, 165.0, 67.0, 165.0 ],
 					"source" : [ "obj-1", 2 ]
 				}
 
@@ -278,6 +291,7 @@
 					"destination" : [ "obj-13", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 39.195652, 162.0, 53.5, 162.0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -287,6 +301,7 @@
 					"destination" : [ "obj-13", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 26.5, 165.0, 40.0, 165.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -366,14 +381,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "and.maxpat",
+				"name" : "ALU.maxpat",
+				"bootpath" : "/Users/angelman/Desktop/com_sim/major_chips",
+				"patcherrelativepath" : "./major_chips",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "muxer.maxpat",
 				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
 				"patcherrelativepath" : "./binary_logic",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "not.maxpat",
+				"name" : "and.maxpat",
 				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
 				"patcherrelativepath" : "./binary_logic",
 				"type" : "JSON",
@@ -387,14 +409,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ALU.maxpat",
-				"bootpath" : "/Users/angelman/Desktop/com_sim/major_chips",
-				"patcherrelativepath" : "./major_chips",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "muxer.maxpat",
+				"name" : "not.maxpat",
 				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
 				"patcherrelativepath" : "./binary_logic",
 				"type" : "JSON",
