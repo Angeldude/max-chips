@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 345.0, 164.0, 665.0, 480.0 ],
+		"rect" : [ 345.0, 164.0, 705.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,15 +29,13 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"maxclass" : "number",
+					"id" : "obj-19",
+					"maxclass" : "toggle",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 52.0, 289.0, 50.0, 20.0 ]
+					"patching_rect" : [ 67.0, 64.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -45,12 +43,26 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-3",
+					"id" : "obj-17",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 111.0, 253.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 16,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 240.0, 221.5, 20.0 ],
+					"patching_rect" : [ 17.0, 170.0, 221.5, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "bintodec.js",
 						"parameter_enable" : 0
@@ -62,15 +74,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-2",
+					"fontname" : "Gill Sans",
+					"fontsize" : 18.0,
+					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 33,
 					"numoutlets" : 47,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "int", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 18.0, 192.0, 640.0, 20.0 ],
-					"text" : "CPU Zeta",
+					"patching_rect" : [ 17.0, 126.0, 603.0, 27.0 ],
+					"text" : "CPU Hack",
 					"textjustification" : 1
 				}
 
@@ -124,18 +136,162 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 562.0, 406.0, 71.0, 20.0 ],
-					"text" : "metro 1000"
+					"patching_rect" : [ 562.0, 406.0, 58.0, 20.0 ],
+					"text" : "metro 30"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 15 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 14 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 14 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 13 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 13 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 12 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 12 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 11 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 11 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 10 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 10 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 9 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 9 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 8 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 8 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 7 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 6 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 5 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -150,145 +306,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 15 ],
+					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 14 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 14 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 13 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 13 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 12 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 12 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 11 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 11 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 10 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 10 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 9 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 9 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 8 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 8 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 7 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 7 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 6 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 6 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 5 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 5 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 4 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 3 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -308,9 +329,23 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "muxer16.maxpat",
-				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
-				"patcherrelativepath" : "./binary_logic",
+				"name" : "bintodec.js",
+				"bootpath" : "/Users/angelman/Desktop/com_sim/scripts",
+				"patcherrelativepath" : "./scripts",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dectobin.js",
+				"bootpath" : "/Users/angelman/Desktop/com_sim/scripts",
+				"patcherrelativepath" : "./scripts",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ALU.maxpat",
+				"bootpath" : "/Users/angelman/Desktop/com_sim/major_chips",
+				"patcherrelativepath" : "./major_chips",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -339,69 +374,6 @@
 				"name" : "not.maxpat",
 				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
 				"patcherrelativepath" : "./binary_logic",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "register.maxpat",
-				"bootpath" : "/Users/angelman/Desktop/com_sim/seq_logic",
-				"patcherrelativepath" : "./seq_logic",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bintodec.js",
-				"bootpath" : "/Users/angelman/Desktop/com_sim/scripts",
-				"patcherrelativepath" : "./scripts",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dectobin.js",
-				"bootpath" : "/Users/angelman/Desktop/com_sim/scripts",
-				"patcherrelativepath" : "./scripts",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "inc16.maxpat",
-				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
-				"patcherrelativepath" : "./binary_logic",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "add16.maxpat",
-				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
-				"patcherrelativepath" : "./binary_logic",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "halfadder.maxpat",
-				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
-				"patcherrelativepath" : "./binary_logic",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "xor.maxpat",
-				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
-				"patcherrelativepath" : "./binary_logic",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fulladder.maxpat",
-				"bootpath" : "/Users/angelman/Desktop/com_sim/binary_logic",
-				"patcherrelativepath" : "./binary_logic",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ALU.maxpat",
-				"bootpath" : "/Users/angelman/Desktop/com_sim/major_chips",
-				"patcherrelativepath" : "./major_chips",
 				"type" : "JSON",
 				"implicit" : 1
 			}
